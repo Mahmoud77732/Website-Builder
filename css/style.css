@@ -132,3 +132,45 @@ section{
 }
 
 /*? ///////////////////////////////////////////////////////////// */
+/* about section styling */
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+.color{
+    color: crimson;
+}
+.image{
+    width: 30%;
+}
+.image img{
+    width: 100%;
+    border-radius: 6px;
+}
+.info{
+    width:50%;
+    float: right;
+}
+.about{
+    margin: auto;
+    margin-top: 30px;
+    padding: 0 80px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.cv{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: crimson;
+    border-color: crimson;
+    border-radius: 10px;
+}
+.cv a{
+    direction: none;
+    color: #fff;
+}
