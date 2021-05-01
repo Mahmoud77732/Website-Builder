@@ -1,25 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-section{
+ul {
+    list-style-type: none;
+}
+
+section {
     padding: 100px 0;
 }
 
-.max-width{
+.max-width {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
 
+
 /*? ///////////////////////////////////////////////////////////// */
+
 
 /*! NavBar Styling */
 
-.navbar{
+.navbar {
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -28,33 +34,33 @@ section{
     transition: all 0.3s ease;
 }
 
-.navbar .max-width{
+.navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.navbar .logo a{
+.navbar .logo a {
     color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
 
-.navbar .logo a span{
+.navbar .logo a span {
     color: crimson;
     transition: all 0.3s ease;
 }
 
-.navbar.sticky .logo a span{
+.navbar.sticky .logo a span {
     color: #fff;
 }
 
-.navbar .menu li{
+.navbar .menu li {
     list-style: none;
     display: inline-block;
 }
 
-.navbar .menu li a{
+.navbar .menu li a {
     display: block;
     color: #fff;
     font-size: 18px;
@@ -63,59 +69,64 @@ section{
     transition: color 0.3s ease;
 }
 
-.navbar .menu li a:hover{
+.navbar .menu li a:hover {
     color: crimson;
 }
 
+
 /*? ///////////////////////////////////////////////////////////// */
+
 
 /*! menu btn in NavBar styling */
 
-.menu-btn{
+.menu-btn {
     color: #fff;
     font-size: 23px;
     cursor: pointer;
     display: none;
 }
 
+
 /*? ///////////////////////////////////////////////////////////// */
+
 
 /*! Home section styling  */
 
-.home{
+.home {
     display: flex;
     background: url("../images/banner.jpg") no-repeat center;
-    height: 100vh; /* for device screen */
+    height: 100vh;
+    /* for device screen */
     color: #fff;
     min-height: 500px;
     font-family: "ubuntu", sans-serif;
 }
 
-.home .max-width{
+.home .max-width {
     margin: auto 0 auto 40px;
 }
 
-.home .home-content .text-1{
+.home .home-content .text-1 {
     font-size: 27px;
 }
 
-.home .home-content .text-2{
+.home .home-content .text-2 {
     font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
 }
 
-.home .home-content .text-3{
+.home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0px;
 }
 
-.home .home-content .text-3 span{
+.home .home-content .text-3 span {
     color: crimson;
     font-weight: 500;
 }
 
-.home .home-content a{
+.home .home-content a {
     display: inline-block;
     background-color: crimson;
     color: #fff;
@@ -126,51 +137,116 @@ section{
     transition: all 0.5s ease;
 }
 
-.home .home-content a:hover{
+.home .home-content a:hover {
     color: crimson;
     background: none;
 }
 
+
 /*? ///////////////////////////////////////////////////////////// */
+
+
 /* about section styling */
-.title{
+
+.title {
     text-align: center;
     font-size: 40px;
     font-weight: 500;
 }
-.color{
+
+.color {
     color: crimson;
 }
-.image{
+
+.image {
     width: 30%;
 }
-.image img{
+
+.image img {
     width: 100%;
     border-radius: 6px;
 }
-.info{
-    width:50%;
+
+.info {
+    width: 50%;
     float: right;
 }
-.about{
+
+.about {
     margin: auto;
     margin-top: 30px;
     padding: 0 80px;
 }
-.content{
+
+.content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-.cv{
+
+.cv {
     margin-top: 20px;
     padding: 20px;
     background-color: crimson;
     border-color: crimson;
     border-radius: 10px;
 }
-.cv a{
+
+.cv a {
     direction: none;
     color: #fff;
+}
+
+.sectionmap {
+    padding: 100px 20px;
+}
+
+.content-section-desc {
+    width: 40%;
+    float: left;
+    padding: 40px;
+}
+
+.content-section-desc h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 32px;
+    color: #303030;
+    font-weight: 400;
+}
+
+.content-section-desc p {
+    margin-top: 15px;
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    color: #686868;
+    font-weight: 400;
+}
+
+.content-section-desc ul {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.content-section-desc li i {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    line-height: 44px;
+    font-size: 20px;
+    color: crimson;
+}
+
+.all-map {
+    margin-left: 40px;
+    height: 480px;
+    width: 50%;
+    padding: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+.clr {
+    clear: both;
 }
